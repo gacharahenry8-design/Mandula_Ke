@@ -1,0 +1,16 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# PyCharm / JetBrains IDE
+.idea/
+
+# Python byte-code / caches
+__pycache__/
+*.py[cod]
+*.class
+
+# Local env files (passwords/API keys)
+.env
+db.sqlite3

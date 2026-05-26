@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@500;600;700&display=swap');
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: #fff;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.m-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 28px;
+  border-bottom: 1px solid #f0f0f0;
+  background: #fff;
+}
+
+.mk-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo-img {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #dc2828;
+}
+
+.navbar-brand-name {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 22px;
+  letter-spacing: 3px;
+  color: #111;
+  text-decoration: none;
+}
+
+.navbar-nav .nav-link {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #888;
+  padding: 6px 12px;
+}
+
+.navbar-nav .nav-link:hover { color: #111; }
+
+.shop-btn {
+  background: #dc2828 !important;
+  color: #fff !important;
+  padding: 7px 18px !important;
+  border-radius: 3px !important;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  padding: 52px 48px;
+  background: #f7f7f7;
+}
+
+.hero-logo {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #dc2828;
+  flex-shrink: 0;
+}
+
+.hero-section h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 64px;
+  line-height: 1;
+  color: #111;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.hero-section h1 span { color: #dc2828; }
+
+.hero-section p {
+  font-size: 13px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #aaa;
+  font-weight: 600;
+  margin-bottom: 28px;
+}
+
+.hero-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #dc2828;
+  color: #fff;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 12px 26px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  text-decoration: none;
+}
