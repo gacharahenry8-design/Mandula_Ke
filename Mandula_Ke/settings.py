@@ -23,15 +23,15 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-ga+7k_wyaah9-467+p7yoex#bc!zt=#le&3a6gh5-^x8y*i!lb'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 import os
 
-ALLOWED_HOSTS = os.environ.get(
-    "ALLOWED_HOSTS",
-    "mandula-ke.onrender.com"
-).split(",")
-
+ALLOWED_HOSTS = [
+    "mandula-ke.onrender.com",
+    "127.0.0.1",
+    "localhost"
+]
 
 # Application definition
 
